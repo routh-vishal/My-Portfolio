@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="top">
+        <nav>
+            <a href="index.html" style="text-decoration: none; color: white;">
+                <div class="left">
+                    Vishal's Portfolio
+                </div>
+            </a>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./contactMe.html">Contact Me</a></li>
+                </ul>
+            </div>
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this); giveMargin();">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <div style="background: none;">
+                    <ul class="mobile-menu" style="display: none; max-height: 0px;">
+                        <li><a href="index.html" style="padding:0px 150px;">Home</a></li>
+                        <li><a href="./about.html" style="padding:0px 150px;">About</a></li>
+                        <li><a href="./projects.html" style="padding:0px 150px;">Projects</a></li>
+                        <li><a href="./contactMe.html" style="padding:0px 100px;">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <div class="secondSection" id="about">
+        <span class="heading-about-me">About Me</span>
+        <p style="border-bottom: 3px solid #e49a29; border-bottom-style: dashed;">
+            Hello! I'm <span style="color:rgb(102, 255, 102)">Vishal Routh</span>, a web developer from Kolkata,
+            currently pursuing a B.Tech at IIT (ISM) Dhanbad.
+            My passion lies in the world of technology, particularly in web development and competitive programming.
+        </p>
+        <p style="margin-top: 10px; border-bottom: 3px solid #e49a29; border-bottom-style: dashed;">
+            In addition to web development, I am an avid competitive programmer. I thrive on the challenges posed by
+            algorithmic problems and enjoy participating in coding competitions. This practice not only sharpens my
+            problem-solving skills but also keeps me updated with the latest trends and techniques in the tech
+            world.
+        </p><p style="margin-top: 10px;">
+            This portfolio showcases my projects, coding achievements. Feel free to explore my work, and don't
+            hesitate to reach out if you have any questions, opportunities, or if you'd like to discuss the latest
+            in web development and competitive programming.
+
+            Thank you for visiting my portfolio!
+        </p>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="social-buttons">
+                <a href="https://www.facebook.com/vishal.routh.9634/"><img src="./images/icons8-facebook-48.svg"
+                        alt="Facebook"></a>
+                <a href="https://www.linkedin.com/in/vishal-routh-196312255"><img src="./images/icons8-linkedin.svg"
+                        alt="LinkedIn"></a>
+                <a href="https://wa.me/918100597181"><img src="./images/icons8-whatsapp.svg" alt="WhatsApp"></a>
+                <a href="https://www.instagram.com/routh_vishal_"><img src="./images/icons8-instagram.svg"
+                        alt="Instagram"></a>
+                <a href="mailto:routhvishal36@gmail.com"><img src="./images/email-svgrepo-com.svg" alt="Email"></a>
+            </div>
+            <span>&copy; 2024 Vishal Routh</span>
+            <a href="#top" class="scroll-to-top-btn" title="Go to top">Go to Top</a>
+        </div>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
